@@ -123,7 +123,6 @@ description: A new skill
         assert "new-skill" in loader.list_skills()
         assert len(loader.list_skills()) == 2
 
-
 class TestSkillTool:
     """测试 SkillTool"""
 
